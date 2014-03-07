@@ -10,7 +10,7 @@ public class AllWordsCounter {
 
     public static final int MAX_WORDS = 10000;
 
-    SingleWordCounter [] counters = new SingleWordCounter[MAX_WORDS];
+    private SingleWordCounter [] counters = new SingleWordCounter[MAX_WORDS];
 
     /**
      * @return number of words
